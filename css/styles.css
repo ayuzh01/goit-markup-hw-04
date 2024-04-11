@@ -494,7 +494,7 @@ transition: transform 200ms linear;
     .footer-link-hover:focus {
         background-color: #31d0aa;
     }
-`
+
     .soc-media {
         font-weight: 500;
 font-size: 16px;
