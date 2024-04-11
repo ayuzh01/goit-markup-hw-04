@@ -484,6 +484,7 @@ color: #fff;
 margin-bottom: 16px;
     }
     .team-icon-list {
+        padding-left: 0;
     }
     .team-icon-item {
     }
