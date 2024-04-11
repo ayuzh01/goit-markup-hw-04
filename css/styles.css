@@ -337,6 +337,8 @@ background-color: #fff;
 
     }
 
+    
+
     .team-icon-link:hover,
     .team-icon-link:active,
     .team-icon-link:focus, {
@@ -382,7 +384,7 @@ background-color: #fff;
         
     }
         
-    ..portfolio-list-item:hover .portfolio-cover-text {
+    .portfolio-list-item:hover .portfolio-cover-text {
         transform: translateY(0);
     }
 
@@ -424,7 +426,7 @@ padding-left: 32px;
 padding-right: 32px;
 padding-top: 40px;
 padding-bottom: 40px;
-transform: translate(100%);
+transform: translateY(100%);
 transition: transform 200ms linear;
 
     }
@@ -435,6 +437,12 @@ transition: transform 200ms linear;
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
+.finalflex {
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
 
     .footer-logo {
         font-family: "Raleway", sans-serif;
@@ -461,12 +469,19 @@ transition: transform 200ms linear;
         max-width: 264px;
     }
 
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+
+    }
     .soc-media {
         font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #fff;
+margin-bottom: 16px;
     }
     .team-icon-list {
     }
