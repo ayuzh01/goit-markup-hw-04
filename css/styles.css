@@ -6,6 +6,8 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -477,15 +479,11 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-right: 120px
     }
 
 
 
     .footer-links {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
 
     }
 
